@@ -1,0 +1,4 @@
+Documentation (Changes in code made by Anmol Jain)
+
+changed this lines from all HTML files : {% load staticfiles %}
+to : {% load static %}
