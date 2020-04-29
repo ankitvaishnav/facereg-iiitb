@@ -38,7 +38,7 @@ if dist2 < 10:
 name2 = file_names[indices[1][0]]---->changes to indices[0][0]
 else:
 name2 = "unknown"
-show_image(q_image2, name2)
+show_image(q_image2, name2) 
 
 
 apart from this everything is well commented.
