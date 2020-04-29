@@ -27,17 +27,25 @@ https://drive.google.com/drive/folders/12aMYASGCKvDdkygSv1yQq8ns03AStDO_
 If we display the indices returned by index.search
 
 array([[ 0],       indices[0][0]  index of nearest neighbor for query image1
+
        [22],       indices[1][0]  index of nearest neighbor for query image2
+       
        [14]])      indices[2][0]  index of nearest neighbor for query image3
 
 For suppose if query image 1 is invalid then
 
 #query image2
+
 dist2 = euclid_distance(1)---------->changes to euclid_distance(0) 
+
 if dist2 < 10:
+
 name2 = file_names[indices[1][0]]---->changes to indices[0][0]
+
 else:
+
 name2 = "unknown"
+
 show_image(q_image2, name2) 
 
 
