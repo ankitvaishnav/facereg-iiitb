@@ -11,8 +11,11 @@ query images are in      face_recognition/test folder
 1. for installing faiss
 
 !wget https://anaconda.org/pytorch/faiss-gpu/1.2.1/download/linux-64/faiss-gpu-1.2.1-py36_cuda9.0.176_1.tar.bz2
+
 !tar xvjf faiss-gpu-1.2.1-py36_cuda9.0.176_1.tar.bz2
+
 !cp -r lib/python3.6/site-packages/* /usr/local/lib/python3.6/dist-packages/
+
 !pip install mkl
 
 2. for installing mtcn
