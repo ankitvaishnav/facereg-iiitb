@@ -1,10 +1,11 @@
 # facereg-iiitb
 This repository is for tracking iiitb face recognition project
 
- faiss1.pynb
- used google colab(with gpu enabled) 
+ faiss1.pynb:
+ 
+ used google colab(with gpu enabled)
 
-training images are in   face_recognition/faces folder
+training images are in   face_recognition/faces folder,
 query images are in      face_recognition/test folder
 
 1. for installing faiss
