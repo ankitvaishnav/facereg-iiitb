@@ -15,7 +15,7 @@ query images are in      face_recognition/test folder
 !cp -r lib/python3.6/site-packages/* /usr/local/lib/python3.6/dist-packages/
 !pip install mkl
 
-2. for installing mtcnn
+2. for installing mtcn
 
 !pip install mtcnn
 
